@@ -1,0 +1,128 @@
+.portfolio-container {
+  width: 100%;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.section-container {
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Home section specific styles */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: calc(100vh - 80px);
+  padding: 2rem 0;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-button {
+  background-color: black;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.secondary-button {
+  border: 1px solid #d1d5db;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.profile-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-right: 2rem;
+}
+
+.profile-image img {
+  width: 406px;
+  height: 406px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.profile-image::before {
+  content: '';
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  z-index: 0;
+  transform: translateX(20px) translateY(-20px);
+}
+
+/* Section background colors */
+.works-section, .skills-section {
+  background-color: #f9fafb;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hero-text {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .button-group {
+    justify-content: center;
+  }
+  
+  .profile-image {
+    padding-right: 0; 
+  }
+  
+  .profile-image img, 
+  .profile-image::before {
+    transform: none; 
+  }
+}
