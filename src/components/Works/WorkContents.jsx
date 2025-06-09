@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './WorkContents.css';
-import CafeImage from '../../assets/cafe web.png'; 
-import LoFoImage from '../../assets/Lo-Fo.png';
+import cafeImage from '../../assets/cafeWeb.png'; 
+import loFoImage from '../../assets/loFo.png';
 
 const WorkContents = () => {
   const projects = [
@@ -9,14 +9,14 @@ const WorkContents = () => {
       id: 'cafe-project', 
       title: "Cafe Web Design",
       description: "A website designed for a local cafe, featuring an intuitive interface for browsing the menu and Cafe's history. This project focused on creating a seamless user experience while maintaining the cafe's brand identity throughout the digital experience.",
-      image: CafeImage,
+      image: cafeImage,
       link: "/project/cafe-project"
     },
     {
       id: 'lofo-project', 
       title: "Lo-Fo App",
       description: "A lost and found application helping users track and recover lost items through a user-friendly interface and notification system. The design prioritizes simplicity and accessibility, making it easy for users to report lost items or find items they've discovered.",
-      image: LoFoImage,
+      image: loFoImage,
       link: "/project/lofo-project"
     },
   ];

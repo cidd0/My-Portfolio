@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import './ProjectDetail.css';
-import CafeWeb from '../../assets/Cafe Web.png';
-import LoFoImage from '../../assets/Lo-Fo.png';
+import cafeWeb from '../../assets/cafeWeb.png';
+import loFoImage from '../../assets/loFo.png';
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -12,7 +12,7 @@ const ProjectDetail = () => {
       title: "Cafe Web Design",
       subtitle: "Web Design | UX/UI Design",
       description: "A creative concept for a local cafe website, focused on delivering a simple and user-friendly browsing experience. The design allows users to view the cafe’s menu, learn about its history, and find its location — all while maintaining consistent branding and visual identity throughout.",
-      image: CafeWeb,
+      image: cafeWeb,
       fullDescription: `
         <h3>Project Overview</h3>
         <p>This Cafe Web Design is a self-initiated concept project created to explore and practice web and UI design. It represents my vision of a clean, informative, and brand-consistent website for a local cafe, showcasing my creativity and early design skills.</p>
@@ -45,7 +45,7 @@ const ProjectDetail = () => {
     title: "Lo-Fo App",
     subtitle: "Web App Design | UX/UI Design",
     description: "A lost and found application helping users track and recover lost items through a user-friendly interface. The design prioritizes simplicity and accessibility, making it easy for users to report lost items or find items they've discovered.",
-    image: LoFoImage,
+    image: loFoImage,
     fullDescription: `
       <h3>Project Overview</h3>
       <p>LO-FO is a web-based lost and found concept designed to help individuals report and find lost items with ease. This UI/UX project showcases a clean, intuitive design layout where users can either submit a report for a lost item or browse through reported items.</p>
