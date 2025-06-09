@@ -78,3 +78,36 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.75rem 0.5rem;
+  }
+  
+  .navbar-menu {
+    overflow-x: auto;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0.2rem;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+  
+  .navbar-menu::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .nav-item {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+  }
+  
+  .navbar-logo {
+    font-size: 1.25rem;
+  }
+  
+  .navbar-location {
+    font-size: 0.8rem;
+  }
+}

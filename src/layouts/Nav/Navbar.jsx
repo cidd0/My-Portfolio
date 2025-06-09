@@ -12,20 +12,17 @@ const Navbar = () => {
     { name: 'RESUME', id: 'resume' }
   ];
 
-  // Function to scroll to section with offset for navbar height
+  
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      // Get the navbar height to use as offset
+      
       const navbar = document.querySelector('.navbar');
       const navbarHeight = navbar ? navbar.offsetHeight : 0;
       
-      // Calculate the element's position relative to the viewport
       const elementPosition = element.getBoundingClientRect().top;
-      // Calculate the absolute position by adding current scroll position
       const offsetPosition = elementPosition + window.scrollY - navbarHeight;
       
-      // Scroll to the adjusted position
       window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth'
@@ -34,11 +31,10 @@ const Navbar = () => {
     setActiveTab(sectionId.toUpperCase());
   };
 
-  // Optional: Update active tab based on scroll position
   useEffect(() => {
     const handleScroll = () => {
       const sections = navItems.map(item => document.getElementById(item.id));
-      const scrollPosition = window.scrollY + 100; // Offset for navbar height
+      const scrollPosition = window.scrollY + 100; 
 
       sections.forEach((section, index) => {
         if (section) {
@@ -56,12 +52,10 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      {/* Logo/Name */}
       <div className="navbar-logo">
         Chan
       </div>
       
-      {/* Navigation Pills */}
       <div className="navbar-menu">
         {navItems.map((item) => (
           <button
@@ -74,7 +68,6 @@ const Navbar = () => {
         ))}
       </div>
       
-      {/* Location */}
       <div className="navbar-location">
         <div>Quezon City,</div>
         <div>Philippines</div>
