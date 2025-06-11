@@ -8,7 +8,7 @@ const Skills = () => {
     },
     {
       title: 'Tools',
-      skills: ['Figma', 'Adobe XD', 'Sketch', 'Photoshop']
+      skills: ['Figma']
     },
     {
       title: 'Development',
