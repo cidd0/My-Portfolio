@@ -67,7 +67,7 @@ const Resume = () => {
         <div className="timeline-item">
           <div className="timeline-dot"></div>
           <div className="timeline-date">
-            <span>2021</span>
+            <span>2022</span>
             <span>2025</span>
           </div>
           <div className="timeline-content">
