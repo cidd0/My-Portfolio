@@ -73,6 +73,39 @@ const ProjectDetail = () => {
     year: "2023",
     demoLink: "https://www.figma.com/design/vj8ucvpIRwEbroY8sZrf0U/Lost-and-Found?node-id=0-1&t=rMziSZgooCHcBELf-1"
     },
+    {
+    id: 'lofo-project',
+    title: "Lo-Fo App",
+    subtitle: "Web App Design | UX/UI Design",
+    description: "A lost and found application helping users track and recover lost items through a user-friendly interface. The design prioritizes simplicity and accessibility, making it easy for users to report lost items or find items they've discovered.",
+    image: loFoImage,
+    fullDescription: `
+      <h3>Project Overview</h3>
+      <p>LO-FO is a web-based lost and found concept designed to help individuals report and find lost items with ease. This UI/UX project showcases a clean, intuitive design layout where users can either submit a report for a lost item or browse through reported items.</p>
+      
+      <h3>The Challenge</h3>
+      <p>The key challenge was to design a user flow that allows quick reporting of lost items and simple browsing of found items, without overwhelming the user. Accessibility and clarity were major considerations throughout the design process.</p>
+      
+      <h3>My Approach</h3>
+      <p>I began by sketching the primary user flows: reporting a lost item, viewing lost items, and viewing detailed information about each item. The layout emphasizes minimalism, visual clarity, and ease of navigation. Grids were used for precise alignment, and UI components were kept consistent throughout the pages.</p>
+      
+      <h3>Key Screens</h3>
+      <ul>
+        <li>Landing page with clear CTA options: “Report Lost Item” and “View Lost Items”</li>
+        <li>Form-based submission page for reporting lost items</li>
+        <li>Lost items dashboard displaying item cards with images</li>
+        <li>Item details page with photo, description, and action buttons</li>
+        <li>Pop-up confirmation dialogues for submission or user actions</li>
+      </ul>
+
+      <h3>Next Steps</h3>
+      <p>This is an initial visual concept created using Figma. The next phase involves improving responsiveness, adding interactivity, and potentially implementing features like location-based sorting, user messaging, or account profiles.</p>
+    `,
+    tools: ["Figma"],
+    timeline: "2 Weeks",
+    year: "2023",
+    demoLink: "https://www.figma.com/design/vj8ucvpIRwEbroY8sZrf0U/Lost-and-Found?node-id=0-1&t=rMziSZgooCHcBELf-1"
+    }
       ];
       
   const project = projectsData.find(p => p.id === id);
