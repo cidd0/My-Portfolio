@@ -53,13 +53,19 @@ const Home = () => {
     <div className="hero-content">
       <div className="hero-text">
         <h1 className="hero-title">
-          Hi, I'm Christian, a UX/UI Designer
+          Hi, I'm Christian, a UX/UI Developer
         </h1>
         <p className="hero-subtitle">passionate about clean, intuitive interfaces.</p>
         <div className="button-group">
-          <Button variant="primary" onClick={scrollToWorks}>
-            View Projects
-          </Button>
+          <a 
+          href="/files/ENRIQUEZ_CHRISTIAN_DAVE_RESUME.pdf"
+          className="download-resume"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download CV
+        </a>
           <Button variant="secondary" onClick={openContactModal}>
             Let's Talk
           </Button>

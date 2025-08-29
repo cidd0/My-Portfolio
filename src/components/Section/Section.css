@@ -21,6 +21,11 @@
   background-color: #f9fafb;
 }
 
+.skills-section.section {
+  min-height: unset;
+  padding: 0.5rem 0;
+}
+
 @media (max-width: 480px) {
   .section {
     padding: 1rem 0.75rem;

@@ -72,3 +72,43 @@
     padding: 1rem;
   }
 }
+
+.skills-scroll-container {
+  overflow-x: auto;
+  width: 100%;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-scroll-row {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  min-width: 400px;
+  width: max-content;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.skill-icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.skill-icon-item:hover {
+  background: #f0f0f0;
+  transform: scale(1.15);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+/* Hide scrollbar on Webkit browsers */
+.skills-scroll-container::-webkit-scrollbar {
+  display: none;
+}

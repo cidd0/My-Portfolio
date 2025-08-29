@@ -5,15 +5,7 @@ const Resume = () => {
     <div className="resume-content">
       <div className="resume-header">
         <h3 className="resume-heading">My Experience</h3>
-        <a 
-          href="/files/ENRIQUEZ_CHRISTIAN_DAVE_RESUME.pdf"
-          className="download-resume"
-          download
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Download Resume
-        </a>
+        
       </div>
       
       <div className="resume-timeline">
