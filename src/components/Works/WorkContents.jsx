@@ -30,6 +30,7 @@ const WorkContents = () => {
       description: 'A personal portfolio website showcasing my projects and skills, built with React and modern web technologies.',
       image: WebPortfolio,
       link: '/project/portfolio-design',
+      external: true,
     },
     {
       id: 'TaskFlow',
