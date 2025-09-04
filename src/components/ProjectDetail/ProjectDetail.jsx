@@ -84,10 +84,10 @@ const ProjectDetail = () => {
       image: WebPortfolio,
       fullDescription: `
       <h3>Project Overview</h3>
-       <p>LO-FO is a web-based lost and found concept designed to help individuals report and find lost items with ease. This UI/UX project showcases a clean, intuitive design layout where users can either submit a report for a lost item or browse through reported items.</p>
+       <p>This portfolio represents my journey as a UX/UI designer and web developer, created with a focus on minimalism and purposeful design. The project showcases my ability to balance aesthetics with functionality, presenting my work and skills in a clean, intuitive interface. I designed this portfolio to reflect my design philosophy while ensuring visitors can easily navigate through my projects, skills, and background without unnecessary distractions. The implementation uses React for seamless interactions and modern CSS for responsive layouts, demonstrating both my design sensibilities and technical capabilities.</p>
       
       <h3>The Challenge</h3>
-      <p>The key challenge was to design a user flow that allows quick reporting of lost items and simple browsing of found items, without overwhelming the user. Accessibility and clarity were major considerations throughout the design process.</p>
+      <p>Making the portfolio show who truly I am.</p>
       
       <h3>My Approach</h3>
       <p>I started thinking who I am as a designer. I thought of the quote that says "Less is more", as a designer, my forte is being simple but has an impact to the users that makes sure that everything that the user needs is in the design even if its simple and minimal.</p>
