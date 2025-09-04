@@ -1,3 +1,21 @@
+.work-card-image {
+  position: relative;
+}
+
+.project-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
 .work-card {
   background-color: #fff;
   border-radius: 8px;

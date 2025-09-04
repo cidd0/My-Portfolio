@@ -3,6 +3,10 @@ import WorkCard from '../WorkCard/WorkCard';
 import cafeImage from '../../assets/cafeWeb.png';
 import loFoImage from '../../assets/loFo.png';
 import TaskFlow from '../../assets/Thumbnail-TaskFlow.png';
+import WebPortfolio from '../../assets/web-portfolio.png';
+import CalmSpace from '../../assets/CalmSpace-Poster.png'; 
+import Dental from '../../assets/AlvicDental.png';  
+
 
 const WorkContents = () => {
   const projects = [
@@ -15,22 +19,40 @@ const WorkContents = () => {
     },
     {
       id: 'lofo-project',
-      title: "Lo-Fo App",
+      title: "Lo-Fo Design",
       description: "A lost and found application helping users track and recover lost items through a user-friendly interface.",
       image: loFoImage,
       link: "/project/lofo-project",
+    },
+    {
+      id: 'portfolio-design',
+      title: 'Portfolio Website',
+      description: 'A personal portfolio website showcasing my projects and skills, built with React and modern web technologies.',
+      image: WebPortfolio,
+      link: '/project/portfolio-design',
     },
     {
       id: 'TaskFlow',
       title: "TaskFlow",
       description: "A productivity app designed to help users manage their tasks and projects efficiently with a sleek interface.",
       image: TaskFlow, 
-      link: "https://taskflow-system.vercel.app/",
+      link: "/project/TaskFlow",
       external: true,
     },  
-
-
-
+    {
+      id: 'CalmSpace',
+      title: "CalmSpace",
+      description: "A mental wellness app providing users with resources and tools to manage stress and improve their mental health.",
+      image: CalmSpace,
+      link: "/project/CalmSpace",
+    },
+    {
+      id:'Dental',
+      title: "Dental Appointment Booking System",
+      description: "A web application that allows patients to book, reschedule, and cancel dental appointments online with ease.",
+      image: Dental,
+      link: "/project/dental-appointment-booking-system",
+    }
 
   ];
 

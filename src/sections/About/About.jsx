@@ -12,7 +12,7 @@ const About = () => {
         
         <div className="about-right">
           <p>
-            Hi, I'm Dave Enriquez — a self-taught front-end developer and aspiring UX/UI designer.
+            Hi, I'm Christian Dave L. Enriquez — a self-taught front-end developer and aspiring UX/UI designer.
 
             While I don't have professional experience yet, I've spent time learning the foundations of design and development through personal projects and continuous practice. I enjoy creating clean, user-friendly interfaces that solve real problems and make digital experiences more enjoyable.
 
@@ -27,7 +27,7 @@ const About = () => {
         </div>
         
         <div className="about-right">
-          <h2>Aspiring UX/UI Designer</h2>
+          <h2>Aspiring UX/UI Developer</h2>
           <h3>Remote</h3>
           <p>
             Since my first year of college, I've been designing websites and crafting user interfaces as part of personal and academic projects. Through continuous practice and learning, I've built a solid foundation in UX research, UI design, and prototyping—using tools like Figma and applying real-world design thinking to every project I create.

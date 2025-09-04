@@ -1,8 +1,41 @@
+.project-detail-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.blur-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.circle-1 {
+  background-color: #575757;
+  width: 600px;
+  height: 600px;
+  top: -100px;
+  right: -50px;
+}
+
+.circle-2 {
+  background-color: #171717;
+  width: 500px;
+  height: 500px;
+  bottom: 100px;
+  left: -150px;
+}
+
 .project-detail {
   max-width: 900px; 
   margin: 0 auto;
   padding: 2rem 1.5rem;
   color: #333;
+  position: relative;
+  z-index: 1;
 }
 
 .project-header {

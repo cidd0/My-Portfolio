@@ -1,5 +1,26 @@
 import './Resume.css';
 
+const certifications = [
+  {
+    title: "Foundations of User Experience (UX) Design",
+    issuer: "Google",
+    date: "2025",
+    link: "https://coursera.org/share/9285cb13756b761fcc2ac6323ca86b88"
+  },
+  {
+    title: "Start the UX Design Process: Empathize, Define, and Ideate",
+    issuer: "Google",
+    date: "2025",
+    link: "https://coursera.org/share/055583fda7f7ad3e60a47bf5f39e48a2"
+  },
+  {
+    title: "Build Wireframes and Low-Fidelity Prototypes",
+    issuer: "Google",
+    date: "2025",
+    link: "https://coursera.org/share/2e6003b80446071dc832db14f9d617a6"
+  },
+]
+
 const Resume = () => {
   return (
     <div className="resume-content">
@@ -97,7 +118,36 @@ const Resume = () => {
             </div>
           </div>
         </div>
-      </div>       
+      </div>
+
+      <div className="resume-divider">
+        <span>Certifications</span>
+      </div>   
+
+      <div className="resume-timeline">
+        {certifications.map((cert, index) => (
+          <div className="timeline-item" key={index}>
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">
+              <span>{cert.date}</span>
+            </div>
+            <div className="timeline-content">
+              <h3 className="timeline-title">{cert.title}</h3>
+              <p className="timeline-company">{cert.issuer}</p>
+              {cert.link && (
+                <a 
+                  href={cert.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="cert-link"
+                >
+                  View Certificate
+                </a>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>    
     </div>
   );
 };

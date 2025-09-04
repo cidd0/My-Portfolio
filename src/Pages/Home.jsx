@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from '../components/Button/Button'; 
 import './Home.css';
-import profileImage from '../assets/grad.jpg'; 
+import profileImage from '../assets/me.png'; 
 
 const Home = () => {
   const [showContactModal, setShowContactModal] = useState(false);
@@ -58,7 +58,7 @@ const Home = () => {
         <p className="hero-subtitle">passionate about clean, intuitive interfaces.</p>
         <div className="button-group">
           <a 
-          href="/files/ENRIQUEZ_CHRISTIAN_DAVE_RESUME.pdf"
+          href="/files/CV_ENRIQUEZ, CHRISTIAN DAVE_WebDev.pdf"
           className="download-resume"
           download
           target="_blank"
