@@ -35,7 +35,7 @@ const Home = () => {
       if (response.ok) {
         setFormStatus('success');
         form.reset();
-        // Close modal after success message is shown for 3 seconds
+
         setTimeout(() => {
           closeContactModal();
           setFormStatus(null);
@@ -59,7 +59,7 @@ const Home = () => {
         <div className="button-group">
           <a 
           href="/files/CV_ENRIQUEZ, CHRISTIAN DAVE_WebDev.pdf"
-          className="download-resume"
+          className="download-resume pulse-button"
           download
           target="_blank"
           rel="noopener noreferrer"

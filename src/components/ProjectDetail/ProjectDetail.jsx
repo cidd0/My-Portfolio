@@ -4,7 +4,7 @@ import cafeWeb from '../../assets/cafeWeb.png';
 import loFoImage from '../../assets/loFo.png';
 import WebPortfolio from '../../assets/web-portfolio.png';
 import TaskFlow from '../../assets/ProjectDetailsImage/TaskFlow-MockUp-NoBG.png';
-import CalmSpace from '../../assets/ProjectDetailsImage/CalmSpace-MockUP-Iphone.png';
+import CalmSpace from '../../assets/ProjectDetailsImage/CalmSpace-MockUp-Iphone.png';
 import Dental from '../../assets/ProjectDetailsImage/AlvicDental-MockUp.png';
 
 const ProjectDetail = () => {
