@@ -10,7 +10,7 @@ const WorkCard = ({ project }) => {
             <div className="work-card-image">
                 <img src={project.image} alt={project.title} className="work-card-img" />
                 <div className="project-tag">
-                    {project.external ? 'Live Site' : 'Figma Design'}
+                    {project.inProgress ? 'In Progress' : project.external ? 'Live Site' : 'Figma Design'}
                 </div>
             </div>
             <div className="work-card-content">

@@ -46,6 +46,7 @@ const WorkContents = () => {
       description: "A mental wellness app providing users with resources and tools to manage stress and improve their mental health.",
       image: CalmSpace,
       link: "/project/CalmSpace",
+      inProgress: true,
     },
     {
       id:'Dental',
