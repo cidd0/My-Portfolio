@@ -11,7 +11,6 @@ const skills = [
   <SiMysql color="#4479a1" size={40} key="mysql" />,
   <FaFigma color="#a259ff" size={40} key="figma" />,
   <FaGithub color="black" size={40} key="github" />,
-  <SiPostman color="#ff6c37" size={40} key="postman" />,
 ];
 
 const Skills = () => (
